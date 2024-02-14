@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>AestethicCalc</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="calc">
+            <div class="monitor"><form name="form"><input type="text" name="textview" readonly></form></div>
+            <div class="btns">
+                <div class="btn" onclick="AC()">AC</div>
+                <div class="btn" onclick="del()">DEL</div>
+                <div class="btn" onclick="insert('()')">( )</div>
+                <div class="btn" onclick="insert('/')">%</div>
+                <div class="btn" onclick="insert('1')">1</div>
+                <div class="btn" onclick="insert('2')">2</div>
+                <div class="btn" onclick="insert('3')">3</div>
+                <div class="btn" onclick="insert('*')">&times;</div>
+                <div class="btn" onclick="insert('4')">4</div>
+                <div class="btn" onclick="insert('5')">5</div>
+                <div class="btn" onclick="insert('6')">6</div>
+                <div class="btn" onclick="insert('+')">+</div>
+                <div class="btn" onclick="insert('7')">7</div>
+                <div class="btn" onclick="insert('8')">8</div>
+                <div class="btn" onclick="insert('9')">9</div>
+                <div class="btn" onclick="insert('-')">-</div>
+                <div class="btn result" onclick="equal()">RESULT</div>
+                <div class="btn" onclick="insert('0')">0</div>
+                <div class="btn" onclick="insert('.')">.</div>
+            </div>
+        </div>
+    </div>
+    <script defer src="scripts/script.js"></script>
+</body>
+</html>
